@@ -1,6 +1,3 @@
-# Bootloader selection
-BOOTLOADER = rp2040
-
 # Build Options
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = yes       # Mouse keys
@@ -12,7 +9,7 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 
 # RP2040 specific options
-CONVERT_TO = promicro        # This is for QMK to recognize the correct pinout
+CONVERT_TO = rp2040_ce        # This is for QMK to recognize the correct pinout
 
 # ADB support
 SRC += adb.c matrix.c
