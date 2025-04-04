@@ -12,7 +12,6 @@ BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 
 # RP2040 specific options
-PICO_INTRINSICS_ENABLED = no  # Enable RP2040 intrinsics
 CONVERT_TO = promicro        # This is for QMK to recognize the correct pinout
 
 # ADB support
