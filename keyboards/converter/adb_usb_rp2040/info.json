@@ -1,8 +1,32 @@
 {
-  "keyboard_name": "ADB to USB Keyboard Converter",
-  "url": "",
-  "maintainer": "qmk",
-  "development_board": "promicro",
+    "manufacturer": "QMK",
+    "keyboard_name": "ADB-to-USB Keyboard Converter (RP2040)",
+    "maintainer": "qmk",
+    "bootmagic": {
+        "enabled": false
+    },
+    "debounce": 5,
+    "development_board": "promicro",
+    "features": {
+        "audio": false,
+        "backlight": false,
+        "bootmagic": false,
+        "command": true,
+        "console": true,
+        "extrakey": true,
+        "nkro": true
+    },
+    "matrix_size": {
+        "cols": 8,
+        "rows": 16
+    },
+    "url": "",
+    "usb": {
+        "device_version": "1.0.1",
+        "max_power": 500,
+        "pid": "0xADB0",
+        "vid": "0xFEED"
+    },
   "layouts": {
     "LAYOUT_ext_ansi": {
       "layout": [
